@@ -54,9 +54,7 @@ header img {
 
 .content aside {
     width: 30%;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 10px 30px 40px;
     background-color: rgb(238, 161, 66);
 }
 
@@ -170,7 +168,7 @@ header img {
     display: none;
 }
 
-/* Responsive Styling */
+
 @media (max-width: 768px) {
     .resumeDiv {
         width: 90%;
@@ -229,6 +227,7 @@ header img {
         margin-left: 10px;
     }
 }
+
 
 @media print {
     .btnDiv {
